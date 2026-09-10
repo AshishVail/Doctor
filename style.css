@@ -1487,3 +1487,35 @@ h3 {
         transition-duration: .01ms !important;
     }
 }
+/* --- Fix Horizontal Overflow on Mobile --- */
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+@media (max-width: 768px) {
+    /* Ensure all container elements stay inside screen */
+    .container, 
+    .contact-container, 
+    .contact-grid, 
+    section, 
+    div {
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Convert contact grid to single column on mobile */
+    .contact-grid,
+    .grid {
+        grid-template-columns: 1rem 1fr !important;
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+        width: 100% !important;
+    }
+
+    /* Hide background decorative circles that overflow screens */
+    .bg-circle, 
+    .decorative-shape {
+        display: none !important;
+    }
+}
