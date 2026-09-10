@@ -1573,3 +1573,25 @@ html, body {
         display: none !important;
     }
 }
+/* --- Fix Hero Title Font Size & Spacing for Mobile --- */
+@media screen and (max-width: 768px) {
+    /* Hero Title Size adjustment */
+    .page-hero h1,
+    .hero h1,
+    h1 {
+        font-size: 2.1rem !important;
+        line-height: 1.25 !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        word-break: break-word !important;
+    }
+
+    /* Subtitle & Eyebrow adjustment */
+    .page-hero p,
+    .hero p,
+    .eyebrow {
+        font-size: 0.95rem !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
