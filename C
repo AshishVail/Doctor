@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Book a private consultation with AURA-MED International Aesthetics & Surgical Institute in Beverly Hills."
+    >
+
+    <title>Private Consultation | AURA-MED</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+
+<header class="site-header">
+
+    <div class="navbar">
+
+        <a href="index.html" class="logo">
+
+            <div class="logo-mark">A</div>
+
+            <div class="logo-text">
+
+                <strong>AURA-MED</strong>
+
+                <span>
+                    International Aesthetics
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <nav class="main-nav">
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="treatments.html">
+                        Treatments
+                    </a>
+                </li>
+
+                <li>
+                    <a href="doctors.html">
+                        Our Specialists
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html" class="active">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <a
+            href="#booking"
+            class="btn btn-gold nav-cta"
+        >
+            Book Consultation
+        </a>
+
+
+        <button
+            class="mobile-toggle"
+            aria-label="Open navigation"
+        >
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- MOBILE DRAWER -->
+
+<aside class="mobile-drawer">
+
+    <button class="drawer-close">
+        ×
+    </button>
+
+    <ul>
+
+        <li>
+            <a href="index.html">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="treatments.html">
+                Treatments
+            </a>
+        </li>
+
+        <li>
+            <a href="doctors.html">
+                Our Specialists
+            </a>
+        </li>
+
+        <li>
+            <a href="contact.html">
+                Contact
+            </a>
+        </li>
+
+    </ul>
+
+    <a
+        href="#booking"
+        class="btn btn-gold drawer-cta"
+    >
+        Book Private Consultation
+    </a>
+
+</aside>
+
+
+<main>
+
+
+<!-- =====================================================
+     PAGE HERO
+===================================================== -->
+
+<section class="page-hero">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            Private Patient Concierge
+        </div>
+
+        <h1>
+            Begin Your AURA-MED Journey.
+        </h1>
+
+        <p>
+            Request a confidential consultation with our
+            patient concierge team in Beverly Hills or London.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT + BOOKING
+===================================================== -->
+
+<section class="section" id="booking">
+
+    <div class="container contact-grid">
+
+
+        <!-- LOCATION -->
+
+        <aside class="contact-card">
+
+            <div class="eyebrow">
+                Beverly Hills Suite
+            </div>
+
+            <h2>
+                Your Private
+                Consultation Awaits.
+            </h2>
+
+            <p>
+                Our concierge team coordinates consultations,
+                treatment planning and international patient
+                arrangements.
+            </p>
+
+
+            <div class="contact-detail">
+
+                <div class="contact-icon">
+                    ◇
+                </div>
+
+                <div>
+
+                    <strong>
+                        Beverly Hills Address
+                    </strong>
+
+                    <span>
+                        9601 Wilshire Blvd,<br>
+                        Suite 800,<br>
+                        Beverly Hills,<br>
+                        CA 90210
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <div class="contact-icon">
+                    ☎
+                </div>
+
+                <div>
+
+                    <strong>
+                        Private Concierge
+                    </strong>
+
+                    <span>
+                        +1 (800) 555-0199
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <div class="contact-icon">
+                    ✉
+                </div>
+
+                <div>
+
+                    <strong>
+                        Email
+                    </strong>
+
+                    <span>
+                        concierge@auramed-aesthetics.com
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <div class="contact-icon">
+                    ✦
+                </div>
+
+                <div>
+
+                    <strong>
+                        International Suite
+                    </strong>
+
+                    <span>
+                        London, United Kingdom
+                    </span>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- BOOKING FORM -->
+
+        <div class="booking-card">
+
+            <div class="eyebrow">
+                VIP Consultation Request
+            </div>
+
+            <h2>
+                Tell Us How We Can Help.
+            </h2>
+
+            <p>
+                Complete the private inquiry below and our
+                concierge team will contact you regarding
+                consultation availability.
+            </p>
+
+
+            <form id="bookingForm" novalidate>
+
+                <div class="form-grid">
+
+
+                    <!-- NAME -->
+
+                    <div class="form-group">
+
+                        <label for="fullName">
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Your full name"
+                            autocomplete="name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                            autocomplete="email"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- PHONE -->
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="+1 (___) ___-____"
+                            autocomplete="tel"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- DATE -->
+
+                    <div class="form-group">
+
+                        <label for="consultationDate">
+                            Preferred Date
+                        </label>
+
+                        <input
+                            type="date"
+                            id="consultationDate"
+                            name="consultationDate"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- DOCTOR -->
+
+                    <div class="form-group">
+
+                        <label for="preferredDoctor">
+                            Preferred Doctor
+                        </label>
+
+                        <select
+                            id="preferredDoctor"
+                            name="preferredDoctor"
+                            required
+                        >
+
+                            <option value="">
+                                Select a specialist
+                            </option>
+
+                            <option value="alexander-vance">
+                                Dr. Alexander Vance
+                            </option>
+
+                            <option value="elena-rostova">
+                                Dr. Elena Rostova
+                            </option>
+
+                            <option value="concierge-recommendation">
+                                Concierge Recommendation
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- TREATMENT -->
+
+                    <div class="form-group">
+
+                        <label for="treatmentType">
+                            Treatment Interest
+                        </label>
+
+                        <select
+                            id="treatmentType"
+                            name="treatmentType"
+                            required
+                        >
+
+                            <option value="">
+                                Select treatment
+                            </option>
+
+                            <option value="facial">
+                                Facial Aesthetics
+                            </option>
+
+                            <option value="facial-surgery">
+                                Facial Plastic Surgery
+                            </option>
+
+                            <option value="laser">
+                                Laser Skin Resurfacing
+                            </option>
+
+                            <option value="body">
+                                Body Contouring
+                            </option>
+
+                            <option value="non-invasive">
+                                Non-Surgical Treatment
+                            </option>
+
+                            <option value="anti-aging">
+                                Anti-Aging / Wellness
+                            </option>
+
+                            <option value="other">
+                                Not Sure / Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- LOCATION -->
+
+                    <div class="form-group">
+
+                        <label for="preferredLocation">
+                            Preferred Suite
+                        </label>
+
+                        <select
+                            id="preferredLocation"
+                            name="preferredLocation"
+                            required
+                        >
+
+                            <option value="">
+                                Select location
+                            </option>
+
+                            <option value="beverly-hills">
+                                Beverly Hills, California
+                            </option>
+
+                            <option value="london">
+                                London, United Kingdom
+                            </option>
+
+                            <option value="either">
+                                Either Location
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- CONCIERGE -->
+
+                    <div class="form-group">
+
+                        <label for="conciergeRequest">
+                            Private Concierge Request
+                        </label>
+
+                        <select
+                            id="conciergeRequest"
+                            name="conciergeRequest"
+                        >
+
+                            <option value="none">
+                                No additional request
+                            </option>
+
+                            <option value="airport">
+                                International travel coordination
+                            </option>
+
+                            <option value="hotel">
+                                Luxury hotel assistance
+                            </option>
+
+                            <option value="transport">
+                                Private transportation inquiry
+                            </option>
+
+                            <option value="privacy">
+                                Enhanced privacy arrangements
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- MESSAGE -->
+
+                    <div class="form-group full">
+
+                        <label for="message">
+                            Additional Information
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Tell our concierge team about your goals or any questions..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+                </div>
+
+
+                <label class="form-consent">
+
+                    <input
+                        type="checkbox"
+                        required
+                    >
+
+                    <span>
+                        I understand that this inquiry is a request
+                        for consultation and does not establish a
+                        physician-patient relationship.
+                    </span>
+
+                </label>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-gold"
+                >
+                    Request Private Consultation →
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================================
+         GOOGLE MAPS PREVIEW
+    ================================================= -->
+
+    <div class="container">
+
+        <div class="section-heading" style="margin-top:70px;">
+
+            <div class="eyebrow">
+                Beverly Hills Location
+            </div>
+
+            <h2>
+                9601 Wilshire Boulevard.
+            </h2>
+
+            <p>
+                Suite 800 · Beverly Hills, California 90210
+            </p>
+
+        </div>
+
+
+        <div class="map-frame">
+
+            <iframe
+                src="https://www.google.com/maps?q=9601+Wilshire+Blvd,+Beverly+Hills,+CA+90210&output=embed"
+                loading="lazy"
+                title="AURA-MED Beverly Hills location map"
+                referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FINAL CTA
+===================================================== -->
+
+<section class="section section-dark">
+
+    <div class="container">
+
+        <div class="section-heading center">
+
+            <div class="eyebrow">
+                AURA-MED Concierge
+            </div>
+
+            <h2>
+                Exceptional Care
+                Begins Before Your Visit.
+            </h2>
+
+            <p>
+                Our team is available to help coordinate your
+                private consultation and international visit.
+            </p>
+
+            <br>
+
+            <a
+                href="tel:+18005550199"
+                class="btn btn-gold"
+            >
+                Call +1 (800) 555-0199
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =====================================================
+     SUCCESS MODAL
+===================================================== -->
+
+<div
+    class="modal-overlay"
+    id="successModal"
+    aria-hidden="true"
+>
+
+    <div class="modal">
+
+        <div class="success-modal">
+
+            <div class="success-icon">
+                ✓
+            </div>
+
+            <h3>
+                Consultation Request Received
+            </h3>
+
+            <p>
+                Thank you. Your inquiry has been received by
+                the AURA-MED patient concierge team. Our team
+                will contact you regarding your preferred
+                consultation details.
+            </p>
+
+            <button
+                class="btn btn-gold modal-close"
+            >
+                Continue
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+
+                    <div class="logo-mark">
+                        A
+                    </div>
+
+                    <div class="logo-text">
+
+                        <strong style="color:white;">
+                            AURA-MED
+                        </strong>
+
+                        <span style="color:rgba(255,255,255,.45);">
+                            International Aesthetics
+                        </span>
+
+                    </div>
+
+                </a>
+
+                <p>
+                    A private destination for aesthetic medicine,
+                    cosmetic surgery and regenerative wellness
+                    across Beverly Hills and London.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <div class="footer-title">
+                    Explore
+                </div>
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="treatments.html">
+                            Treatments
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="doctors.html">
+                            Specialists
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <div class="footer-title">
+                    Beverly Hills
+                </div>
+
+                <ul class="footer-links">
+
+                    <li>
+                        9601 Wilshire Blvd
+                    </li>
+
+                    <li>
+                        Suite 800
+                    </li>
+
+                    <li>
+                        Beverly Hills, CA 90210
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <div class="footer-title">
+                    Concierge
+                </div>
+
+                <ul class="footer-links">
+
+                    <li>
+                        +1 (800) 555-0199
+                    </li>
+
+                    <li>
+                        concierge@auramed-aesthetics.com
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div>
+                © 2026 AURA-MED International Aesthetics & Surgical Institute.
+            </div>
+
+            <div class="disclaimer">
+                Demonstration website. The address, phone,
+                email, medical profiles, pricing, testimonials
+                and clinical claims are placeholder content
+                and must be verified before publication.
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
