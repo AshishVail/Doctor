@@ -1573,25 +1573,33 @@ html, body {
         display: none !important;
     }
 }
-/* --- Fix Hero Title Font Size & Spacing for Mobile --- */
+/* --- Fix Navbar Header Padding & Spacing on Mobile --- */
 @media screen and (max-width: 768px) {
-    /* Hero Title Size adjustment */
-    .page-hero h1,
-    .hero h1,
-    h1 {
-        font-size: 2.1rem !important;
-        line-height: 1.25 !important;
-        padding-left: 12px !important;
-        padding-right: 12px !important;
-        word-break: break-word !important;
+    /* Main Floating Header Container */
+    .site-header {
+        padding: 12px 16px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
 
-    /* Subtitle & Eyebrow adjustment */
-    .page-hero p,
-    .hero p,
-    .eyebrow {
-        font-size: 0.95rem !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
+    /* White Rounded Pill Navbar Bar */
+    .navbar {
+        width: calc(100% - 24px) !important;
+        margin: 0 auto !important;
+        padding: 10px 18px !important;
+        box-sizing: border-box !important;
+        border-radius: 40px !important;
+    }
+
+    /* Logo Text Spacing Inside Pill */
+    .logo {
+        gap: 10px !important;
+        padding-left: 4px !important;
+    }
+
+    /* Hamburger Menu Button Right Padding */
+    .mobile-toggle {
+        margin-right: 4px !important;
     }
 }
+
